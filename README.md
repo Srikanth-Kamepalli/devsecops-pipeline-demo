@@ -25,11 +25,10 @@ Before running the project locally, ensure the following tools are installed:
 
 ## Project Structure
 
+```
 devsecops-pipeline-demo/
 ├── app/
-│ └── app.py # Flask application code
-├── Dockerfile # Dockerfile to containerize the application
-├── requirements.txt # Python dependencies (e.g., Flask)
-├── Jenkinsfile # Jenkins pipeline file (optional, for CI/CD automation)
-└── README.md # This file
-
+│ └── app.py
+├── Dockerfile
+└── requirements.txt
+```
